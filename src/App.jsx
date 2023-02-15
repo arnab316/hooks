@@ -1,5 +1,6 @@
 import { useState,useEffect } from 'react';
 import Parent from './components/Parent';
+import ReducerHook from './components/useReducer/ReducerHook';
 // import ClearUp from './components/ClearnUp';
 
 
@@ -16,7 +17,8 @@ function App() {
   <>
   {/* <button onClick={()=>{setCount(count+1)}} >Click Me! {count}</button> */}
   {/* <ClearUp/> */}
-   <Parent />
+   {/* <Parent /> */}
+   <ReducerHook />
 
   </>
   )
