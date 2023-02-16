@@ -16,14 +16,15 @@ const Callbackhook = () => {
   }, [todos]);
 
   return (
-    <Wrapper>
+    <div>
       <Todos todos={todos} addTodo={addTodo} />
       <hr />
       <div>
         Count: {count}
         <button onClick={increment}>+</button>
       </div>
-    </Wrapper>
+      </div>
+    
   );
 };
 
