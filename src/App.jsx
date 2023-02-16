@@ -1,13 +1,12 @@
 import { useState,useEffect } from 'react';
 import React from 'react'
-import LayoutEffect from './components/useLayout/LayoutEffect';
-
+import MemoHook from './components/usememo/MemoHook';
 
 function App() {
  
   return (
        <>
-    <LayoutEffect/>
+    <MemoHook/>
       </>
   )
 }
