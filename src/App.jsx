@@ -1,12 +1,11 @@
 import { useState,useEffect } from 'react';
 import React from 'react'
-import MemoHook from './components/usememo/MemoHook';
-
+import CallbackHook from './components/usecallback/CallbackHook';
 function App() {
  
   return (
        <>
-    <MemoHook/>
+    <CallbackHook/>
       </>
   )
 }
